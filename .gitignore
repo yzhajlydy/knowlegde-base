@@ -28,3 +28,9 @@ node_modules/
 
 # 不跟踪 Obsidian 配置，但保留 CSS snippets
 # （CSS snippets 已在版本控制中）
+
+# 大文件：Wolai 导出的 zip 和解压后的图片/附件
+raw/books/文字之光.zip
+raw/cards/知识卡片.zip
+raw/books/extracted/
+raw/cards/extracted/
