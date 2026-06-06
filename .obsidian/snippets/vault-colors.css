@@ -1,0 +1,65 @@
+/* ========================================
+   个人知识库 Wiki — 自定义颜色方案
+   启用方式：Settings > Appearance > CSS Snippets > 开启 vault-colors
+   ======================================== */
+
+/* ---- 自定义中文 Callout 颜色 ---- */
+
+.callout[data-callout='矛盾'] {
+  --callout-color: 209, 105, 105;
+  --callout-icon: lucide-alert-triangle;
+}
+
+.callout[data-callout='缺口'] {
+  --callout-color: 220, 220, 170;
+  --callout-icon: lucide-help-circle;
+}
+
+.callout[data-callout='关键洞察'] {
+  --callout-color: 79, 193, 255;
+  --callout-icon: lucide-lightbulb;
+}
+
+.callout[data-callout='待验证'] {
+  --callout-color: 128, 128, 128;
+  --callout-icon: lucide-clock;
+}
+
+.callout[data-callout='跨领域'] {
+  --callout-color: 197, 134, 192;
+  --callout-icon: lucide-link;
+}
+
+/* ---- 文件夹颜色 ---- */
+
+.nav-folder-title[data-path^="wiki/domains"] {
+  color: #4fc1ff;
+}
+.nav-folder-title[data-path^="wiki/concepts"] {
+  color: #dcdcaa;
+}
+.nav-folder-title[data-path^="wiki/entities"] {
+  color: #c586c0;
+}
+.nav-folder-title[data-path^="wiki/sources"] {
+  color: #ce9178;
+}
+.nav-folder-title[data-path^="wiki/questions"] {
+  color: #6a9955;
+}
+.nav-folder-title[data-path^="wiki/meta"] {
+  color: #569cd6;
+}
+.nav-folder-title[data-path^="wiki/comparisons"] {
+  color: #d16969;
+}
+.nav-folder-title[data-path^="wiki/reading-list"] {
+  color: #b5cea8;
+}
+.nav-folder-title[data-path="raw"] {
+  color: #808080;
+  opacity: 0.7;
+}
+
+/* ---- 图谱视图颜色分组（需在 Graph View 设置中配置） ---- */
+/* domains=蓝 concepts=黄 entities=紫 sources=橙 questions=绿 comparisons=红 */

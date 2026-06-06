@@ -1,0 +1,30 @@
+# Obsidian 运行时文件
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/
+.obsidian/themes/
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/core-plugins-migration.json
+.obsidian/graph.json
+.obsidian/hotkeys.json
+.obsidian/community-plugins.json
+
+# 临时文件
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian Git 插件数据
+.obsidian-git-data
+
+# Smart Connections 插件
+.smart-connections/
+
+# Node（如果以后添加脚本）
+node_modules/
+
+# 不跟踪 Obsidian 配置，但保留 CSS snippets
+# （CSS snippets 已在版本控制中）
