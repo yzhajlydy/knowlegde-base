@@ -9,7 +9,9 @@ tags:
   - 类型/书籍
 status: finished
 rating: 0
-related: []
+related:
+  - "[[另一半什么最重要]]"
+  - "[[爱情、婚姻、另一半]]"
 sources:
   - "[[raw/books/extracted/lvmQyi/【DONE】《男人来自火星，女人来自金星》II-恋爱篇Joh/【DONE】《男人来自火星，女人来自金星》II-恋爱篇John Gray.md]]"
 key_takeaways:
