@@ -14,7 +14,6 @@ tags:
   - 领域/科学
 status: seed
 related:
-  - "[[文化传播]]"
 sources:
   - "[[wiki/sources/自私的基因]]"
 ---

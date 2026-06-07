@@ -13,7 +13,6 @@ tags:
   - 领域/自我提升
 status: seed
 related:
-  - "[[产品思维]]"
 sources:
   - "[[wiki/sources/精进]]"
   - "[[wiki/sources/设计心理学]]"

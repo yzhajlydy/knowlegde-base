@@ -12,7 +12,6 @@ tags:
   - 领域/自我提升
 status: seed
 related:
-  - "[[目标设定]]"
 sources:
   - "[[wiki/sources/自信力]]"
 ---

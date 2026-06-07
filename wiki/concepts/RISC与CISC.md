@@ -13,7 +13,6 @@ tags:
   - 领域/科学
 status: seed
 related:
-  - "[[计算机体系结构]]"
 sources:
   - "[[wiki/sources/前沿科技芯片技术]]"
 ---

@@ -12,7 +12,6 @@ tags:
   - 领域/科学
 status: seed
 related:
-  - "[[搜索引擎]]"
 sources:
   - "[[wiki/sources/数学之美]]"
 ---
