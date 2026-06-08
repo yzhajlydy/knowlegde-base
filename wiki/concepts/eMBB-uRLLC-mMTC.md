@@ -3,7 +3,7 @@ type: concept
 title: "eMBB/uRLLC/mMTC"
 complexity: basic
 domain:
-  - 科学
+  - 科技
 aliases:
   - 5G三大应用场景
 created: 2026-06-06

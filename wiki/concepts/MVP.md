@@ -3,7 +3,7 @@ type: concept
 title: "MVP"
 complexity: basic
 domain:
-  - 自我提升
+  - 管理学
 aliases:
   - 最小化可行产品
 created: 2026-06-06

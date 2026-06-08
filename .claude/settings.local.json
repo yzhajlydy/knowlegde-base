@@ -4,7 +4,17 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git push *)",
-      "Bash(gh auth *)"
+      "Bash(gh auth *)",
+      "Bash(awk '$1 > 100 && $2 != \"total\" {print $1, $2}')",
+      "Bash(awk '$1 <= 50 && $2 != \"total\" {count++} END {print count, \"个\"}')",
+      "Bash(awk '$1 <= 30 && $2 != \"total\" {count++} END {print count, \"个\"}')",
+      "Bash(echo \"=== concepts 文件列表 ===\" && ls wiki/concepts/*.md | sed 's|wiki/concepts/||; s|\\\\.md||' | sort > /tmp/all_concepts.txt && wc -l /tmp/all_concepts.txt && echo \"\" && echo \"=== domain 页中引用的概念 ===\" && grep -h \"\\\\- \\\\[\\\\[\" wiki/domains/*.md | sed 's/.*\\\\[\\\\[//; s/\\\\]\\\\].*//' | sort -u > /tmp/domain_concepts.txt && wc -l /tmp/domain_concepts.txt && echo \"\" && echo \"=== 不在任何 domain 中的概念 ===\" && comm -23 /tmp/all_concepts.txt /tmp/domain_concepts.txt)",
+      "Read(//tmp/**)",
+      "Bash(python3 update_domains.py)",
+      "Bash(rm update_domains.py && git add -A && git status --short)"
+    ],
+    "additionalDirectories": [
+      "/Users/leven/Documents/knowledge-base/knowlegde-base"
     ]
   }
 }

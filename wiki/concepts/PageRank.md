@@ -3,7 +3,7 @@ type: concept
 title: "PageRank"
 complexity: basic
 domain:
-  - 科学
+  - 科技
 aliases: []
 created: 2026-06-06
 updated: 2026-06-06
