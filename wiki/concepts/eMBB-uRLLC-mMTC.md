@@ -13,7 +13,6 @@ tags:
   - 领域/科学
 status: seed
 related:
-  - "[[通信技术]]"
 sources:
   - "[[wiki/sources/5G技术]]"
 ---
