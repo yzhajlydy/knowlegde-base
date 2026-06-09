@@ -14,7 +14,10 @@
       "Bash(rm update_domains.py && git add -A && git status --short)",
       "Bash(rm -f .git/index.lock && git add -A && git commit -m \"refactor: 新建商业+历史 domain，重新分类约60个跨域概念，管理学/经济学/心理学大幅精简\" && git push)",
       "Bash(sed -n '/^## 关键来源/,/^## 跨领域/p' wiki/domains/科技.md)",
-      "Bash(sed -n '/^## 关键来源/,/^## 跨领域/p' wiki/domains/科学.md)"
+      "Bash(sed -n '/^## 关键来源/,/^## 跨领域/p' wiki/domains/科学.md)",
+      "Bash(git config *)",
+      "Bash(echo \"Name: $\\(git config --global user.name\\)\")",
+      "Bash(echo \"Email: $\\(git config --global user.email\\)\")"
     ],
     "additionalDirectories": [
       "/Users/leven/Documents/knowledge-base/knowlegde-base",
