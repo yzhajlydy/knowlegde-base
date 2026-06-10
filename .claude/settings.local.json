@@ -17,7 +17,9 @@
       "Bash(sed -n '/^## 关键来源/,/^## 跨领域/p' wiki/domains/科学.md)",
       "Bash(git config *)",
       "Bash(echo \"Name: $\\(git config --global user.name\\)\")",
-      "Bash(echo \"Email: $\\(git config --global user.email\\)\")"
+      "Bash(echo \"Email: $\\(git config --global user.email\\)\")",
+      "Bash(cat)",
+      "Bash(python3 /tmp/benford_replace.py \"wiki/concepts/本福特定律.md\")"
     ],
     "additionalDirectories": [
       "/Users/leven/Documents/knowledge-base/knowlegde-base",
