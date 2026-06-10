@@ -19,7 +19,9 @@
       "Bash(echo \"Name: $\\(git config --global user.name\\)\")",
       "Bash(echo \"Email: $\\(git config --global user.email\\)\")",
       "Bash(cat)",
-      "Bash(python3 /tmp/benford_replace.py \"wiki/concepts/本福特定律.md\")"
+      "Bash(python3 /tmp/benford_replace.py \"wiki/concepts/本福特定律.md\")",
+      "Bash(sed -i '' '/\\\\[\\\\[OKR\\\\]\\\\]/d' wiki/domains/管理学.md wiki/concepts/计划管理的本质是管理资源.md wiki/sources/5分钟商学院.md)",
+      "Bash(sed -i '' '/\\\\[\\\\[情感账户\\\\]\\\\]/d' wiki/domains/管理学.md wiki/concepts/双赢思维.md)"
     ],
     "additionalDirectories": [
       "/Users/leven/Documents/knowledge-base/knowlegde-base",
