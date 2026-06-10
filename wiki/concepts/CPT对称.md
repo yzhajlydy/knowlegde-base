@@ -13,7 +13,6 @@ tags:
   - 领域/科学
 status: seed
 related:
-  - "[[粒子物理]]"
 sources:
   - "[[wiki/sources/时间简史]]"
 ---
