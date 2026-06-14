@@ -13,7 +13,7 @@ related:
   - "[[另一半什么最重要]]"
   - "[[婚姻与个人的关系]]、[[如何判断对方是否对你好]]"
 sources:
-  - "[[raw/books/extracted/lvmQyi/【DONE】《男人来自火星，女人来自金星》II-恋爱篇Joh/【DONE】《男人来自火星，女人来自金星》II-恋爱篇John Gray.md]]"
+  - "[[raw/books/【DONE】《男人来自火星，女人来自金星》II-恋爱篇Joh/【DONE】《男人来自火星，女人来自金星》II-恋爱篇John Gray.md]]"
 key_takeaways:
   - "恋爱必然经过五个阶段：吸引、不确定、排他、亲密、订婚，必须完整经历"
   - "女人三个吸引人特质：自信、接纳、响应；男人三个特质：自信、目标、责任感"

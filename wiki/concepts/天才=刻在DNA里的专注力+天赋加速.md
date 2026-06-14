@@ -16,7 +16,7 @@ status: seed
 related:
   - "[[刻意练习适用低复杂度活动]]"
 sources:
-- "[[raw/cards/天才天赋和后天努力.md]]"
+- "[[raw/cards/天才天赋和后天努力/天才天赋和后天努力.md]]"
 - "[[wiki/sources/刻意练习]]"
 
 ---
