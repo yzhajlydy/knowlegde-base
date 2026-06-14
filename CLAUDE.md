@@ -12,46 +12,26 @@
 ```
 vault/
 ├── CLAUDE.md              ← 本文件：行为规范
-├── raw/                   ← Layer 1: 不可变原始素材
-│   ├── books/             书籍笔记/摘要导出
-│   ├── cards/             Wolai 知识卡片导出
-│   ├── articles/          网络文章
-│   └── assets/            图片、PDF
-│
+├── README.md
+├── raw/                   ← Layer 1: 原始素材（Wolai 导出，每份一文件夹）
+│   ├── books/             每本书：《书名》 作者/  含 《书名》 作者.md + image/
+│   └── cards/             每张卡片：卡片名/  含 卡片名.md + image/
+│                          （raw/cards/知识卡片.md 是 Wolai 卡片总索引）
 ├── wiki/                  ← Layer 2: LLM 维护的知识库
-│   ├── index.md           主索引（列出所有领域和概念）
-│   ├── log.md             时间线日志（新条目追加在顶部）
-│   ├── hot.md             热缓存（~500字最近上下文摘要）
-│   ├── overview.md        全局概览
+│   ├── index.md           主索引（按领域列出所有概念）
 │   ├── sources/           每本书/课程的摘要页
-│   ├── concepts/          概念、思想、框架（原子化，一概念一页，360个）
-│   ├── entities/          人物、组织
-│   ├── domains/           领域聚合页（11个，每个概念一句话解释）
-│   │   ├── 经济学         市场机制、成本理论、边际思维、价格理论
-│   │   ├── 心理学         认知偏差、动机、情绪、行为心理学
-│   │   ├── 管理学         团队建设、组织管理、领导力、激励
-│   │   ├── 认知科学       思维模式、学习理论、注意力管理
-│   │   ├── 哲学           幸福论、人生意义、伦理、逻辑法则
-│   │   ├── 思维方法       逻辑推理、批判性思维、模型思维、决策框架
-│   │   ├── 科学           进化论、物理学、复杂性科学、数学思维
-│   │   ├── 科技           半导体、通信技术、计算机网络、算法
-│   │   ├── 自我提升       个人成长、习惯养成、效率工具、精力管理
-│   │   ├── 商业           产品策略、市场竞争、营销、创新理论
-│   │   └── 历史           以史为鉴、历史事件、文明演变
-│   ├── comparisons/       对比分析
-│   ├── questions/         已回答的好问题
-│   ├── reading-list/      阅读清单追踪
-│   └── meta/              仪表盘、lint 报告
-│
-├── _templates/            Obsidian Templater 模板
-└── _attachments/          图片和附件
+│   ├── concepts/          概念、思想、框架（原子化，一概念一页）
+│   └── domains/           领域聚合页（11个领域，每个概念一句话解释）
+└── _templates/            Obsidian Templater 模板
+
+注：原 schema 规划的 log.md / hot.md / overview.md / entities/ / comparisons/ / questions/ / reading-list/ / meta/，以及 raw/articles/、raw/assets/、_attachments/ 均未实际创建；下文 INGEST/QUERY/LINT 流程中对这些文件的引用为规划设计，暂未启用。
 ```
 
 ---
 
 ## 核心规则
 
-1. **raw/ 是只读的。** 绝不修改、删除或移动 raw/ 下的任何文件。
+1. **raw/ 是原始素材区。** 存放 Wolai 导出的原始书籍/卡片，结构：raw/books/《书名》 作者/、raw/cards/卡片名/（各含 .md + image/）。允许整理（扁平化、删空壳重复），但不要改动单份素材的正文内容。
 2. **wiki/ 是你的。** 你全权负责创建、更新、重命名、删除 wiki/ 下的所有文件。
 3. **每个 wiki 页面必须有 YAML frontmatter。** 无例外。
 4. **使用 Wikilinks。** `[[页面名]]` 而非 `[text](path/to/file.md)`。文件名必须唯一。
