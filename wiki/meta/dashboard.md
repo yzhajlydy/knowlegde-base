@@ -58,13 +58,3 @@ FROM "wiki/sources"
 WHERE source_type = "book" AND status = "to-read"
 SORT author ASC
 ```
-
-## 统计概览
-
-| 指标 | 数量 |
-|------|------|
-| 已读书籍 | ~40 |
-| 待读书籍 | ~20+ |
-| 知识卡片（待迁移） | ~70+ |
-| Wiki 页面总数 | 初始化中 |
-| 领域页面 | 7 |
