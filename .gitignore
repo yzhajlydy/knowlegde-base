@@ -32,3 +32,6 @@ node_modules/
 # 大文件：Wolai 导出的 zip
 raw/books/文字之光.zip
 raw/cards/知识卡片.zip
+
+# Claude Code 本地设置（个人配置，不入库）
+.claude/settings.local.json
