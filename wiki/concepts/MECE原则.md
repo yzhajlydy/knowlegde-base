@@ -12,7 +12,6 @@ tags:
   - 领域/思维方法
 status: seed
 related:
-  - "[[逻辑树]]"
   - "[[SCQA]]"
 sources:
   - "[[wiki/sources/成长词典]]"
@@ -30,5 +29,4 @@ MECE（Mutually Exclusive, Collectively Exhaustive）要求在分类时做到各
 MECE原则广泛应用于问题分析、信息整理和方案设计。在构建金字塔结构或逻辑树时，遵循MECE原则可以确保分析的完整性和清晰性。掌握MECE有助于培养结构化思维习惯，避免分析中的盲点和重复。
 
 ## 相关概念
-- [[逻辑树]]
 - [[SCQA]]
