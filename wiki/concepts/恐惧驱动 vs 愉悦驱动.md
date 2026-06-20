@@ -6,7 +6,7 @@ domain:
   - 心理学
 aliases: []
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-19 22:10:52
 tags:
   - 类型/概念
   - 领域/心理学

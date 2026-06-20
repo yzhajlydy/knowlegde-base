@@ -38,8 +38,12 @@
 
 ## 工具
 
-- **Obsidian** + 插件：Dataview（仪表盘）、Templater（模板）、Obsidian Git（自动备份）
-- **Claude Code**：维护 `wiki/` 下所有文件（创建、更新、删除、清理双链）
+- **Obsidian** + 插件：
+  - **Dataview** — 动态仪表盘（`wiki/meta/dashboard.md`）
+  - **Templater** — 新笔记模板
+  - **Obsidian Git** — 自动 git 备份
+  - **Linter** — 保存时自动把 frontmatter 的 `updated` 刷成当前时刻（规则 `YAML Timestamp`：key=`updated`、format=`YYYY-MM-DD HH:mm:ss`），让 `updated` 始终等于文件 mtime（精确到秒），零手动维护
+- **Claude Code** — 维护 `wiki/` 下所有文件（创建、更新、删除、清理双链），编辑时同步写 `updated`
 
 ## 历史
 

@@ -7,7 +7,7 @@ domain:
 aliases:
   - 最小化可行产品
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-17 22:31:10
 tags:
   - 类型/概念
   - 领域/自我提升
